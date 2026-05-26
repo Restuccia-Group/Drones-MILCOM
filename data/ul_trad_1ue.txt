@@ -1,0 +1,2675 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1779776395.551904 3518065 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1779776396.870965 3518065 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Pre-generated Sem5QI assignments:
+  Iteration 1: {'UE1': 190, 'UE2': 157, 'UE3': 151, 'UE4': 197}
+  Iteration 2: {'UE1': 167, 'UE2': 165, 'UE3': 164, 'UE4': 158}
+  Iteration 3: {'UE1': 197, 'UE2': 156, 'UE3': 193, 'UE4': 197}
+  Iteration 4: {'UE1': 207, 'UE2': 184, 'UE3': 155, 'UE4': 187}
+  Iteration 5: {'UE1': 177, 'UE2': 152, 'UE3': 151, 'UE4': 155}
+  Iteration 6: {'UE1': 163, 'UE2': 164, 'UE3': 182, 'UE4': 188}
+  Iteration 7: {'UE1': 151, 'UE2': 185, 'UE3': 162, 'UE4': 195}
+  Iteration 8: {'UE1': 191, 'UE2': 194, 'UE3': 184, 'UE4': 176}
+  Iteration 9: {'UE1': 164, 'UE2': 178, 'UE3': 187, 'UE4': 167}
+  Iteration 10: {'UE1': 201, 'UE2': 205, 'UE3': 150, 'UE4': 198}
+  Iteration 11: {'UE1': 201, 'UE2': 160, 'UE3': 194, 'UE4': 177}
+  Iteration 12: {'UE1': 171, 'UE2': 167, 'UE3': 159, 'UE4': 163}
+  Iteration 13: {'UE1': 198, 'UE2': 171, 'UE3': 156, 'UE4': 155}
+  Iteration 14: {'UE1': 174, 'UE2': 156, 'UE3': 172, 'UE4': 204}
+  Iteration 15: {'UE1': 172, 'UE2': 188, 'UE3': 166, 'UE4': 201}
+  Iteration 16: {'UE1': 152, 'UE2': 196, 'UE3': 179, 'UE4': 184}
+  Iteration 17: {'UE1': 157, 'UE2': 209, 'UE3': 174, 'UE4': 155}
+  Iteration 18: {'UE1': 185, 'UE2': 168, 'UE3': 203, 'UE4': 190}
+  Iteration 19: {'UE1': 189, 'UE2': 206, 'UE3': 205, 'UE4': 173}
+  Iteration 20: {'UE1': 186, 'UE2': 162, 'UE3': 195, 'UE4': 154}
+  Iteration 21: {'UE1': 152, 'UE2': 192, 'UE3': 164, 'UE4': 199}
+  Iteration 22: {'UE1': 168, 'UE2': 155, 'UE3': 204, 'UE4': 164}
+  Iteration 23: {'UE1': 205, 'UE2': 156, 'UE3': 174, 'UE4': 167}
+  Iteration 24: {'UE1': 179, 'UE2': 190, 'UE3': 203, 'UE4': 173}
+  Iteration 25: {'UE1': 160, 'UE2': 173, 'UE3': 172, 'UE4': 163}
+  Iteration 26: {'UE1': 192, 'UE2': 167, 'UE3': 194, 'UE4': 209}
+  Iteration 27: {'UE1': 193, 'UE2': 191, 'UE3': 154, 'UE4': 188}
+  Iteration 28: {'UE1': 190, 'UE2': 160, 'UE3': 184, 'UE4': 196}
+  Iteration 29: {'UE1': 165, 'UE2': 160, 'UE3': 179, 'UE4': 174}
+  Iteration 30: {'UE1': 167, 'UE2': 209, 'UE3': 190, 'UE4': 194}
+  Iteration 31: {'UE1': 185, 'UE2': 164, 'UE3': 193, 'UE4': 170}
+  Iteration 32: {'UE1': 203, 'UE2': 199, 'UE3': 199, 'UE4': 153}
+  Iteration 33: {'UE1': 164, 'UE2': 202, 'UE3': 152, 'UE4': 201}
+  Iteration 34: {'UE1': 170, 'UE2': 175, 'UE3': 167, 'UE4': 154}
+  Iteration 35: {'UE1': 163, 'UE2': 208, 'UE3': 186, 'UE4': 206}
+  Iteration 36: {'UE1': 195, 'UE2': 170, 'UE3': 163, 'UE4': 191}
+  Iteration 37: {'UE1': 181, 'UE2': 175, 'UE3': 206, 'UE4': 208}
+  Iteration 38: {'UE1': 191, 'UE2': 179, 'UE3': 159, 'UE4': 166}
+  Iteration 39: {'UE1': 158, 'UE2': 165, 'UE3': 197, 'UE4': 185}
+  Iteration 40: {'UE1': 184, 'UE2': 166, 'UE3': 197, 'UE4': 187}
+  Iteration 41: {'UE1': 177, 'UE2': 207, 'UE3': 187, 'UE4': 175}
+  Iteration 42: {'UE1': 173, 'UE2': 164, 'UE3': 158, 'UE4': 182}
+  Iteration 43: {'UE1': 181, 'UE2': 155, 'UE3': 198, 'UE4': 153}
+  Iteration 44: {'UE1': 205, 'UE2': 157, 'UE3': 159, 'UE4': 190}
+  Iteration 45: {'UE1': 160, 'UE2': 200, 'UE3': 193, 'UE4': 177}
+  Iteration 46: {'UE1': 188, 'UE2': 154, 'UE3': 174, 'UE4': 174}
+  Iteration 47: {'UE1': 188, 'UE2': 179, 'UE3': 183, 'UE4': 166}
+  Iteration 48: {'UE1': 185, 'UE2': 205, 'UE3': 150, 'UE4': 193}
+  Iteration 49: {'UE1': 196, 'UE2': 157, 'UE3': 193, 'UE4': 206}
+  Iteration 50: {'UE1': 184, 'UE2': 198, 'UE3': 167, 'UE4': 199}
+  Iteration 51: {'UE1': 191, 'UE2': 171, 'UE3': 157, 'UE4': 168}
+  Iteration 52: {'UE1': 177, 'UE2': 160, 'UE3': 179, 'UE4': 150}
+  Iteration 53: {'UE1': 196, 'UE2': 206, 'UE3': 196, 'UE4': 166}
+  Iteration 54: {'UE1': 182, 'UE2': 198, 'UE3': 161, 'UE4': 182}
+  Iteration 55: {'UE1': 208, 'UE2': 156, 'UE3': 205, 'UE4': 190}
+  Iteration 56: {'UE1': 169, 'UE2': 203, 'UE3': 190, 'UE4': 182}
+  Iteration 57: {'UE1': 188, 'UE2': 162, 'UE3': 159, 'UE4': 173}
+  Iteration 58: {'UE1': 198, 'UE2': 160, 'UE3': 184, 'UE4': 199}
+  Iteration 59: {'UE1': 209, 'UE2': 183, 'UE3': 208, 'UE4': 150}
+  Iteration 60: {'UE1': 188, 'UE2': 170, 'UE3': 181, 'UE4': 151}
+  Iteration 61: {'UE1': 157, 'UE2': 209, 'UE3': 173, 'UE4': 206}
+  Iteration 62: {'UE1': 203, 'UE2': 201, 'UE3': 169, 'UE4': 165}
+  Iteration 63: {'UE1': 153, 'UE2': 165, 'UE3': 206, 'UE4': 186}
+  Iteration 64: {'UE1': 155, 'UE2': 155, 'UE3': 196, 'UE4': 181}
+  Iteration 65: {'UE1': 202, 'UE2': 154, 'UE3': 198, 'UE4': 184}
+  Iteration 66: {'UE1': 199, 'UE2': 158, 'UE3': 158, 'UE4': 192}
+  Iteration 67: {'UE1': 180, 'UE2': 185, 'UE3': 160, 'UE4': 166}
+  Iteration 68: {'UE1': 183, 'UE2': 205, 'UE3': 188, 'UE4': 177}
+  Iteration 69: {'UE1': 163, 'UE2': 209, 'UE3': 184, 'UE4': 198}
+  Iteration 70: {'UE1': 196, 'UE2': 194, 'UE3': 162, 'UE4': 195}
+
+
+
+============================================================
+ITERATION 1/70
+============================================================
+Sem5QI assignments: {'UE1': 190, 'UE2': 157, 'UE3': 151, 'UE4': 197}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.276e-01
+  Avg throughput (successful tasks)           : 2.388e+00
+  Avg total task time (successful tasks)      : 4.089e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.89
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.500
+  Avg A_v (successful tasks)                  : 7.149e-01
+  Avg total task time (successful tasks)      : 3.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.30
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.079e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.840e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 1 avg success rate: 0.875
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 2/70
+============================================================
+Sem5QI assignments: {'UE1': 167, 'UE2': 165, 'UE3': 164, 'UE4': 158}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.902e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 9.489e-02
+  Avg throughput (successful tasks)           : 5.040e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 0.929
+  Avg A_v (successful tasks)                  : 8.950e-01
+  Avg total task time (successful tasks)      : 1.287e+00
+  Avg HARQ rounds per RLC of successful tasks : 2.99
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.980e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 2 avg success rate: 0.982
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 3/70
+============================================================
+Sem5QI assignments: {'UE1': 197, 'UE2': 156, 'UE3': 193, 'UE4': 197}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.090e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.829
+  Avg A_v (successful tasks)                  : 6.266e-01
+  Avg total task time (successful tasks)      : 4.116e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.74
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.108e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.943e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 3 avg success rate: 0.957
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 4/70
+============================================================
+Sem5QI assignments: {'UE1': 207, 'UE2': 184, 'UE3': 155, 'UE4': 187}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.181e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.454e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.089e-01
+  Avg throughput (successful tasks)           : 2.126e+00
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.983e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 4 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 5/70
+============================================================
+Sem5QI assignments: {'UE1': 177, 'UE2': 152, 'UE3': 151, 'UE4': 155}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.096e-01
+  Avg total task time (successful tasks)      : 6.661e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.91
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.104e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.255e-01
+  Avg total task time (successful tasks)      : 7.704e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.125e-01
+  Avg throughput (successful tasks)           : 1.124e+00
+  Avg total task time (successful tasks)      : 8.311e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.99
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 5 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 6/70
+============================================================
+Sem5QI assignments: {'UE1': 163, 'UE2': 164, 'UE3': 182, 'UE4': 188}
+UE1
+  Success Rate                                : 0.786
+  Avg A_v (successful tasks)                  : 8.051e-01
+  Avg total task time (successful tasks)      : 5.102e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.23
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.082e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.094e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.736e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 6 avg success rate: 0.946
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 7/70
+============================================================
+Sem5QI assignments: {'UE1': 151, 'UE2': 185, 'UE3': 162, 'UE4': 195}
+UE1
+  Success Rate                                : 0.986
+  Avg A_v (successful tasks)                  : 6.055e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.180e-01
+  Avg throughput (successful tasks)           : 4.911e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.169e-01
+  Avg total task time (successful tasks)      : 4.411e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.01
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.397e-01
+  Avg throughput (successful tasks)           : 4.790e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 7 avg success rate: 0.996
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 8/70
+============================================================
+Sem5QI assignments: {'UE1': 191, 'UE2': 194, 'UE3': 184, 'UE4': 176}
+UE1
+  Success Rate                                : 0.643
+  Avg A_v (successful tasks)                  : 6.028e-01
+  Avg total task time (successful tasks)      : 1.986e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.03
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.659e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.660e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.315e-01
+  Avg total task time (successful tasks)      : 4.339e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.99
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 8 avg success rate: 0.911
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 9/70
+============================================================
+Sem5QI assignments: {'UE1': 164, 'UE2': 178, 'UE3': 187, 'UE4': 167}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.093e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.990e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.047e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 0.943
+  Avg A_v (successful tasks)                  : 6.838e-01
+  Avg total task time (successful tasks)      : 5.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 9 avg success rate: 0.986
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 10/70
+============================================================
+Sem5QI assignments: {'UE1': 201, 'UE2': 205, 'UE3': 150, 'UE4': 198}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.906e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.666e-01
+  Avg throughput (successful tasks)           : 4.640e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.403e-01
+  Avg throughput (successful tasks)           : 3.393e+00
+  Avg total task time (successful tasks)      : 3.125e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.50
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.008e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 10 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 11/70
+============================================================
+Sem5QI assignments: {'UE1': 201, 'UE2': 160, 'UE3': 194, 'UE4': 177}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.299e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.143e-01
+  Avg throughput (successful tasks)           : 9.114e-01
+  Avg total task time (successful tasks)      : 1.078e+00
+  Avg HARQ rounds per RLC of successful tasks : 3.80
+  Avg RLC rounds of successful tasks          : 1.01
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.599e-01
+  Avg total task time (successful tasks)      : 2.089e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.09
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.065e-01
+  Avg total task time (successful tasks)      : 7.839e-01
+  Avg HARQ rounds per RLC of successful tasks : 3.21
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 11 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 12/70
+============================================================
+Sem5QI assignments: {'UE1': 171, 'UE2': 167, 'UE3': 159, 'UE4': 163}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.314e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.946e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.805e-01
+  Avg total task time (successful tasks)      : 8.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.233e-01
+  Avg total task time (successful tasks)      : 8.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 12 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 13/70
+============================================================
+Sem5QI assignments: {'UE1': 198, 'UE2': 171, 'UE3': 156, 'UE4': 155}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.588e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.342e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.236e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.238e-01
+  Avg throughput (successful tasks)           : 2.361e+00
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 13 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 14/70
+============================================================
+Sem5QI assignments: {'UE1': 174, 'UE2': 156, 'UE3': 172, 'UE4': 204}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.687e-01
+  Avg total task time (successful tasks)      : 1.982e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.04
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.242e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.141e-01
+  Avg total task time (successful tasks)      : 3.961e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.383e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 14 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 15/70
+============================================================
+Sem5QI assignments: {'UE1': 172, 'UE2': 188, 'UE3': 166, 'UE4': 201}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.079e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.795e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.193e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.194e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 15 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 16/70
+============================================================
+Sem5QI assignments: {'UE1': 152, 'UE2': 196, 'UE3': 179, 'UE4': 184}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.977e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.928e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.017e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.384e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 16 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 17/70
+============================================================
+Sem5QI assignments: {'UE1': 157, 'UE2': 209, 'UE3': 174, 'UE4': 155}
+UE1
+  Success Rate                                : 0.414
+  Avg A_v (successful tasks)                  : 7.176e-01
+  Avg total task time (successful tasks)      : 3.685e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.30
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.774e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.831e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.079e-01
+  Avg throughput (successful tasks)           : 2.158e+00
+  Avg total task time (successful tasks)      : 4.475e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 17 avg success rate: 0.854
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 18/70
+============================================================
+Sem5QI assignments: {'UE1': 185, 'UE2': 168, 'UE3': 203, 'UE4': 190}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.453e-01
+  Avg throughput (successful tasks)           : 4.759e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.971e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.792e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.434e-01
+  Avg throughput (successful tasks)           : 4.770e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 18 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 19/70
+============================================================
+Sem5QI assignments: {'UE1': 189, 'UE2': 206, 'UE3': 205, 'UE4': 173}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.598e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.201e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.008e-01
+  Avg throughput (successful tasks)           : 5.007e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.129e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 19 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 20/70
+============================================================
+Sem5QI assignments: {'UE1': 186, 'UE2': 162, 'UE3': 195, 'UE4': 154}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.183e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.957
+  Avg A_v (successful tasks)                  : 7.144e-01
+  Avg total task time (successful tasks)      : 4.785e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.16
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.442e-01
+  Avg throughput (successful tasks)           : 4.765e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.050e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 20 avg success rate: 0.989
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 21/70
+============================================================
+Sem5QI assignments: {'UE1': 152, 'UE2': 192, 'UE3': 164, 'UE4': 199}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.942e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.118e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.089e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.264e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 21 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 22/70
+============================================================
+Sem5QI assignments: {'UE1': 168, 'UE2': 155, 'UE3': 204, 'UE4': 164}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.740e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.246e-01
+  Avg throughput (successful tasks)           : 4.874e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.545e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 0.971
+  Avg A_v (successful tasks)                  : 9.153e-01
+  Avg total task time (successful tasks)      : 8.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.97
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 22 avg success rate: 0.993
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 23/70
+============================================================
+Sem5QI assignments: {'UE1': 205, 'UE2': 156, 'UE3': 174, 'UE4': 167}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.231e-01
+  Avg throughput (successful tasks)           : 4.882e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.235e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.736e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.121e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 23 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 24/70
+============================================================
+Sem5QI assignments: {'UE1': 179, 'UE2': 190, 'UE3': 203, 'UE4': 173}
+UE1
+  Success Rate                                : 0.971
+  Avg A_v (successful tasks)                  : 8.873e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.033e-01
+  Avg throughput (successful tasks)           : 4.993e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.128e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.978e-01
+  Avg total task time (successful tasks)      : 3.911e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.81
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 24 avg success rate: 0.993
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 25/70
+============================================================
+Sem5QI assignments: {'UE1': 160, 'UE2': 173, 'UE3': 172, 'UE4': 163}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 9.078e-02
+  Avg throughput (successful tasks)           : 2.210e+00
+  Avg total task time (successful tasks)      : 4.339e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.99
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.922e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.074e-01
+  Avg total task time (successful tasks)      : 5.846e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 0.743
+  Avg A_v (successful tasks)                  : 8.036e-01
+  Avg total task time (successful tasks)      : 1.107e+00
+  Avg HARQ rounds per RLC of successful tasks : 2.11
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 25 avg success rate: 0.936
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 26/70
+============================================================
+Sem5QI assignments: {'UE1': 192, 'UE2': 167, 'UE3': 194, 'UE4': 209}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.898e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.957
+  Avg A_v (successful tasks)                  : 6.853e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.679e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.936e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 26 avg success rate: 0.989
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 27/70
+============================================================
+Sem5QI assignments: {'UE1': 193, 'UE2': 191, 'UE3': 154, 'UE4': 188}
+UE1
+  Success Rate                                : 0.857
+  Avg A_v (successful tasks)                  : 7.943e-01
+  Avg total task time (successful tasks)      : 4.333e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.84
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.543
+  Avg A_v (successful tasks)                  : 6.071e-01
+  Avg total task time (successful tasks)      : 2.533e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.14
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.845e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.006e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 27 avg success rate: 0.850
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 28/70
+============================================================
+Sem5QI assignments: {'UE1': 190, 'UE2': 160, 'UE3': 184, 'UE4': 196}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.443e-01
+  Avg throughput (successful tasks)           : 4.764e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 8.876e-02
+  Avg throughput (successful tasks)           : 2.616e+00
+  Avg total task time (successful tasks)      : 3.982e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.84
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.914e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.062e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 28 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 29/70
+============================================================
+Sem5QI assignments: {'UE1': 165, 'UE2': 160, 'UE3': 179, 'UE4': 174}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.354e-01
+  Avg throughput (successful tasks)           : 4.814e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.046e-01
+  Avg throughput (successful tasks)           : 2.137e+00
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 0.943
+  Avg A_v (successful tasks)                  : 8.871e-01
+  Avg total task time (successful tasks)      : 1.281e+00
+  Avg HARQ rounds per RLC of successful tasks : 2.93
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.835e-01
+  Avg total task time (successful tasks)      : 8.832e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.66
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 29 avg success rate: 0.986
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 30/70
+============================================================
+Sem5QI assignments: {'UE1': 167, 'UE2': 209, 'UE3': 190, 'UE4': 194}
+UE1
+  Success Rate                                : 0.714
+  Avg A_v (successful tasks)                  : 6.996e-01
+  Avg total task time (successful tasks)      : 4.325e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.70
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.524e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.433e-01
+  Avg throughput (successful tasks)           : 3.808e+00
+  Avg total task time (successful tasks)      : 2.732e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.34
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.761e-01
+  Avg total task time (successful tasks)      : 3.768e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.76
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 30 avg success rate: 0.929
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 31/70
+============================================================
+Sem5QI assignments: {'UE1': 185, 'UE2': 164, 'UE3': 193, 'UE4': 170}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.468e-01
+  Avg throughput (successful tasks)           : 4.751e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.062e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.118e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.373e-01
+  Avg throughput (successful tasks)           : 4.804e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 31 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 32/70
+============================================================
+Sem5QI assignments: {'UE1': 203, 'UE2': 199, 'UE3': 199, 'UE4': 153}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.597e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.845e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.829e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.822e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 32 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 33/70
+============================================================
+Sem5QI assignments: {'UE1': 164, 'UE2': 202, 'UE3': 152, 'UE4': 201}
+UE1
+  Success Rate                                : 0.757
+  Avg A_v (successful tasks)                  : 8.939e-01
+  Avg total task time (successful tasks)      : 1.177e+00
+  Avg HARQ rounds per RLC of successful tasks : 3.84
+  Avg RLC rounds of successful tasks          : 1.01
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.865e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.981e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.326e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 33 avg success rate: 0.939
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 34/70
+============================================================
+Sem5QI assignments: {'UE1': 170, 'UE2': 175, 'UE3': 167, 'UE4': 154}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.379e-01
+  Avg throughput (successful tasks)           : 4.800e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.184e-01
+  Avg throughput (successful tasks)           : 4.908e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.073e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.041e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 34 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 35/70
+============================================================
+Sem5QI assignments: {'UE1': 163, 'UE2': 208, 'UE3': 186, 'UE4': 206}
+UE1
+  Success Rate                                : 0.814
+  Avg A_v (successful tasks)                  : 8.084e-01
+  Avg total task time (successful tasks)      : 6.086e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.56
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.720e-01
+  Avg total task time (successful tasks)      : 4.089e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.89
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.263e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.920e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 35 avg success rate: 0.954
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 36/70
+============================================================
+Sem5QI assignments: {'UE1': 195, 'UE2': 170, 'UE3': 163, 'UE4': 191}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.501e-01
+  Avg throughput (successful tasks)           : 4.732e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.224e-01
+  Avg throughput (successful tasks)           : 4.886e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.109e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.246e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 36 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 37/70
+============================================================
+Sem5QI assignments: {'UE1': 181, 'UE2': 175, 'UE3': 206, 'UE4': 208}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.149e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.210e-01
+  Avg throughput (successful tasks)           : 1.335e+00
+  Avg total task time (successful tasks)      : 6.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 3.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.050e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.738e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 37 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 38/70
+============================================================
+Sem5QI assignments: {'UE1': 191, 'UE2': 179, 'UE3': 159, 'UE4': 166}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.214e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.897e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 0.929
+  Avg A_v (successful tasks)                  : 8.939e-01
+  Avg total task time (successful tasks)      : 3.529e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.61
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.160e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 38 avg success rate: 0.982
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 39/70
+============================================================
+Sem5QI assignments: {'UE1': 158, 'UE2': 165, 'UE3': 197, 'UE4': 185}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.077e-01
+  Avg total task time (successful tasks)      : 4.232e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.94
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.511e-01
+  Avg throughput (successful tasks)           : 3.313e+00
+  Avg total task time (successful tasks)      : 3.161e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.51
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.133e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.297e-01
+  Avg throughput (successful tasks)           : 4.846e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 39 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 40/70
+============================================================
+Sem5QI assignments: {'UE1': 184, 'UE2': 166, 'UE3': 197, 'UE4': 187}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.601e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.202e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.054e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.176e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 40 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 41/70
+============================================================
+Sem5QI assignments: {'UE1': 177, 'UE2': 207, 'UE3': 187, 'UE4': 175}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.104e-01
+  Avg total task time (successful tasks)      : 2.339e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.19
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.874e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.128e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.234e-01
+  Avg throughput (successful tasks)           : 4.674e+00
+  Avg total task time (successful tasks)      : 2.054e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.07
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 41 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 42/70
+============================================================
+Sem5QI assignments: {'UE1': 173, 'UE2': 164, 'UE3': 158, 'UE4': 182}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.041e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.102e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.030e-01
+  Avg total task time (successful tasks)      : 8.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.015e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 42 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 43/70
+============================================================
+Sem5QI assignments: {'UE1': 181, 'UE2': 155, 'UE3': 198, 'UE4': 153}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.093e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.199e-01
+  Avg throughput (successful tasks)           : 3.395e+00
+  Avg total task time (successful tasks)      : 3.196e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.53
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.792e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 0.929
+  Avg A_v (successful tasks)                  : 7.751e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 43 avg success rate: 0.982
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 44/70
+============================================================
+Sem5QI assignments: {'UE1': 205, 'UE2': 157, 'UE3': 159, 'UE4': 190}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.433e-01
+  Avg throughput (successful tasks)           : 4.770e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.119e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.851e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.324e-01
+  Avg throughput (successful tasks)           : 4.831e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 44 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 45/70
+============================================================
+Sem5QI assignments: {'UE1': 160, 'UE2': 200, 'UE3': 193, 'UE4': 177}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.016e-01
+  Avg throughput (successful tasks)           : 2.144e+00
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.352e-01
+  Avg throughput (successful tasks)           : 4.815e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.087e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.075e-01
+  Avg total task time (successful tasks)      : 4.661e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.11
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 45 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 46/70
+============================================================
+Sem5QI assignments: {'UE1': 188, 'UE2': 154, 'UE3': 174, 'UE4': 174}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.901e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.936e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.847e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.802e-01
+  Avg total task time (successful tasks)      : 6.318e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.54
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 46 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 47/70
+============================================================
+Sem5QI assignments: {'UE1': 188, 'UE2': 179, 'UE3': 183, 'UE4': 166}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.719e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.978e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.854e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.151e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 47 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 48/70
+============================================================
+Sem5QI assignments: {'UE1': 185, 'UE2': 205, 'UE3': 150, 'UE4': 193}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.701e-01
+  Avg throughput (successful tasks)           : 4.581e+00
+  Avg total task time (successful tasks)      : 1.911e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.01
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.419e-01
+  Avg throughput (successful tasks)           : 4.778e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.386e-01
+  Avg throughput (successful tasks)           : 4.796e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 0.686
+  Avg A_v (successful tasks)                  : 7.794e-01
+  Avg total task time (successful tasks)      : 2.708e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.23
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 48 avg success rate: 0.921
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 49/70
+============================================================
+Sem5QI assignments: {'UE1': 196, 'UE2': 157, 'UE3': 193, 'UE4': 206}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.178e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.129e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.075e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.138e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 49 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 50/70
+============================================================
+Sem5QI assignments: {'UE1': 184, 'UE2': 198, 'UE3': 167, 'UE4': 199}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.542e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.085e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 0.986
+  Avg A_v (successful tasks)                  : 6.886e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.663e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 50 avg success rate: 0.996
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 51/70
+============================================================
+Sem5QI assignments: {'UE1': 191, 'UE2': 171, 'UE3': 157, 'UE4': 168}
+UE1
+  Success Rate                                : 0.886
+  Avg A_v (successful tasks)                  : 6.030e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.075e-01
+  Avg total task time (successful tasks)      : 2.018e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.06
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 0.986
+  Avg A_v (successful tasks)                  : 7.150e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.99
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.961e-01
+  Avg total task time (successful tasks)      : 3.989e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 51 avg success rate: 0.968
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 52/70
+============================================================
+Sem5QI assignments: {'UE1': 177, 'UE2': 160, 'UE3': 179, 'UE4': 150}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.229e-01
+  Avg total task time (successful tasks)      : 4.268e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.96
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.124e-01
+  Avg throughput (successful tasks)           : 4.774e+00
+  Avg total task time (successful tasks)      : 2.018e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.06
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.938e-01
+  Avg total task time (successful tasks)      : 1.029e+00
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.483e-01
+  Avg throughput (successful tasks)           : 2.250e+00
+  Avg total task time (successful tasks)      : 3.989e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 52 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 140, 'Path 1': 140, 'Path 2': 0, 'Path 3': 0}
+
+============================================================
+ITERATION 53/70
+============================================================
+Sem5QI assignments: {'UE1': 196, 'UE2': 206, 'UE3': 196, 'UE4': 166}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.237e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.982e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.954e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.250e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 53 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 54/70
+============================================================
+Sem5QI assignments: {'UE1': 182, 'UE2': 198, 'UE3': 161, 'UE4': 182}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.089e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.633e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.389e-01
+  Avg total task time (successful tasks)      : 4.375e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.985e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 54 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 55/70
+============================================================
+Sem5QI assignments: {'UE1': 208, 'UE2': 156, 'UE3': 205, 'UE4': 190}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.833e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.886
+  Avg A_v (successful tasks)                  : 6.313e-01
+  Avg total task time (successful tasks)      : 4.254e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.84
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.472e-01
+  Avg throughput (successful tasks)           : 4.748e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.402e-01
+  Avg throughput (successful tasks)           : 4.788e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 55 avg success rate: 0.971
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 56/70
+============================================================
+Sem5QI assignments: {'UE1': 169, 'UE2': 203, 'UE3': 190, 'UE4': 182}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.700e-01
+  Avg total task time (successful tasks)      : 3.768e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.76
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.782e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.234e-01
+  Avg throughput (successful tasks)           : 4.881e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.862e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 56 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 57/70
+============================================================
+Sem5QI assignments: {'UE1': 188, 'UE2': 162, 'UE3': 159, 'UE4': 173}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.613e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.929
+  Avg A_v (successful tasks)                  : 7.324e-01
+  Avg total task time (successful tasks)      : 3.837e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.73
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.871e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.822e-01
+  Avg total task time (successful tasks)      : 5.396e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.01
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 57 avg success rate: 0.982
+  --> Path task counts: {'Path 0': 140, 'Path 1': 70, 'Path 2': 70, 'Path 3': 0}
+
+============================================================
+ITERATION 58/70
+============================================================
+Sem5QI assignments: {'UE1': 198, 'UE2': 160, 'UE3': 184, 'UE4': 199}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.698e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.243
+  Avg BER (successful tasks)                  : 1.181e-01
+  Avg throughput (successful tasks)           : 4.696e-01
+  Avg total task time (successful tasks)      : 2.496e+00
+  Avg HARQ rounds per RLC of successful tasks : 2.30
+  Avg RLC rounds of successful tasks          : 6.46
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.881e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.944e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 58 avg success rate: 0.811
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 59/70
+============================================================
+Sem5QI assignments: {'UE1': 209, 'UE2': 183, 'UE3': 208, 'UE4': 150}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.066e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 0.829
+  Avg A_v (successful tasks)                  : 7.473e-01
+  Avg total task time (successful tasks)      : 2.263e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.13
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.621e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.143e-01
+  Avg throughput (successful tasks)           : 4.931e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 59 avg success rate: 0.957
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 60/70
+============================================================
+Sem5QI assignments: {'UE1': 188, 'UE2': 170, 'UE3': 181, 'UE4': 151}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.685e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.228e-01
+  Avg throughput (successful tasks)           : 4.884e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.865e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.086e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 60 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 61/70
+============================================================
+Sem5QI assignments: {'UE1': 157, 'UE2': 209, 'UE3': 173, 'UE4': 206}
+UE1
+  Success Rate                                : 0.771
+  Avg A_v (successful tasks)                  : 7.239e-01
+  Avg total task time (successful tasks)      : 4.329e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.76
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.962e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.943e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.956e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 61 avg success rate: 0.943
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 62/70
+============================================================
+Sem5QI assignments: {'UE1': 203, 'UE2': 201, 'UE3': 169, 'UE4': 165}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.716e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.260e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.762e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.325e-01
+  Avg throughput (successful tasks)           : 4.830e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 62 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 63/70
+============================================================
+Sem5QI assignments: {'UE1': 153, 'UE2': 165, 'UE3': 206, 'UE4': 186}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.826e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.300e-01
+  Avg throughput (successful tasks)           : 4.844e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.129e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.962e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 63 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 64/70
+============================================================
+Sem5QI assignments: {'UE1': 155, 'UE2': 155, 'UE3': 196, 'UE4': 181}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.320e-01
+  Avg throughput (successful tasks)           : 2.050e+00
+  Avg total task time (successful tasks)      : 4.446e-01
+  Avg HARQ rounds per RLC of successful tasks : 2.03
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.145e-01
+  Avg throughput (successful tasks)           : 3.093e+00
+  Avg total task time (successful tasks)      : 3.482e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.64
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.774e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.063e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 64 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 65/70
+============================================================
+Sem5QI assignments: {'UE1': 202, 'UE2': 154, 'UE3': 198, 'UE4': 184}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.888e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.003e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.864e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 9.054e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 65 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 66/70
+============================================================
+Sem5QI assignments: {'UE1': 199, 'UE2': 158, 'UE3': 158, 'UE4': 192}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.819e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.954e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.933e-01
+  Avg total task time (successful tasks)      : 2.625e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.30
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 6.920e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 66 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 67/70
+============================================================
+Sem5QI assignments: {'UE1': 180, 'UE2': 185, 'UE3': 160, 'UE4': 166}
+UE1
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.173e-01
+  Avg throughput (successful tasks)           : 4.915e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.589e-01
+  Avg throughput (successful tasks)           : 4.683e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.129e-01
+  Avg throughput (successful tasks)           : 4.855e+00
+  Avg total task time (successful tasks)      : 1.946e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.03
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.990e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 67 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 70, 'Path 2': 70, 'Path 3': 70}
+
+============================================================
+ITERATION 68/70
+============================================================
+Sem5QI assignments: {'UE1': 183, 'UE2': 205, 'UE3': 188, 'UE4': 177}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.826e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.246e-01
+  Avg throughput (successful tasks)           : 4.874e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.802e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.222e-01
+  Avg total task time (successful tasks)      : 3.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.80
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 68 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 69/70
+============================================================
+Sem5QI assignments: {'UE1': 163, 'UE2': 209, 'UE3': 184, 'UE4': 198}
+UE1
+  Success Rate                                : 0.886
+  Avg A_v (successful tasks)                  : 8.059e-01
+  Avg total task time (successful tasks)      : 2.036e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.06
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.882e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.678e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.753e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 69 avg success rate: 0.971
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+ITERATION 70/70
+============================================================
+Sem5QI assignments: {'UE1': 196, 'UE2': 194, 'UE3': 162, 'UE4': 195}
+UE1
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 5.962e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE2
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 8.661e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE3
+  Success Rate                                : 1.000
+  Avg A_v (successful tasks)                  : 7.244e-01
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+UE4
+  Success Rate                                : 1.000
+  Avg BER (successful tasks)                  : 1.258e-01
+  Avg throughput (successful tasks)           : 4.867e+00
+  Avg total task time (successful tasks)      : 1.875e-01
+  Avg HARQ rounds per RLC of successful tasks : 1.00
+  Avg RLC rounds of successful tasks          : 1.00
+
+  --> Iteration 70 avg success rate: 1.000
+  --> Path task counts: {'Path 0': 70, 'Path 1': 0, 'Path 2': 140, 'Path 3': 70}
+
+============================================================
+FINAL SUMMARY ACROSS 70 ITERATIONS
+============================================================
+  Iteration  1: 0.875
+  Iteration  2: 0.982
+  Iteration  3: 0.957
+  Iteration  4: 1.000
+  Iteration  5: 1.000
+  Iteration  6: 0.946
+  Iteration  7: 0.996
+  Iteration  8: 0.911
+  Iteration  9: 0.986
+  Iteration 10: 1.000
+  Iteration 11: 1.000
+  Iteration 12: 1.000
+  Iteration 13: 1.000
+  Iteration 14: 1.000
+  Iteration 15: 1.000
+  Iteration 16: 1.000
+  Iteration 17: 0.854
+  Iteration 18: 1.000
+  Iteration 19: 1.000
+  Iteration 20: 0.989
+  Iteration 21: 1.000
+  Iteration 22: 0.993
+  Iteration 23: 1.000
+  Iteration 24: 0.993
+  Iteration 25: 0.936
+  Iteration 26: 0.989
+  Iteration 27: 0.850
+  Iteration 28: 1.000
+  Iteration 29: 0.986
+  Iteration 30: 0.929
+  Iteration 31: 1.000
+  Iteration 32: 1.000
+  Iteration 33: 0.939
+  Iteration 34: 1.000
+  Iteration 35: 0.954
+  Iteration 36: 1.000
+  Iteration 37: 1.000
+  Iteration 38: 0.982
+  Iteration 39: 1.000
+  Iteration 40: 1.000
+  Iteration 41: 1.000
+  Iteration 42: 1.000
+  Iteration 43: 0.982
+  Iteration 44: 1.000
+  Iteration 45: 1.000
+  Iteration 46: 1.000
+  Iteration 47: 1.000
+  Iteration 48: 0.921
+  Iteration 49: 1.000
+  Iteration 50: 0.996
+  Iteration 51: 0.968
+  Iteration 52: 1.000
+  Iteration 53: 1.000
+  Iteration 54: 1.000
+  Iteration 55: 0.971
+  Iteration 56: 1.000
+  Iteration 57: 0.982
+  Iteration 58: 0.811
+  Iteration 59: 0.957
+  Iteration 60: 1.000
+  Iteration 61: 0.943
+  Iteration 62: 1.000
+  Iteration 63: 1.000
+  Iteration 64: 1.000
+  Iteration 65: 1.000
+  Iteration 66: 1.000
+  Iteration 67: 1.000
+  Iteration 68: 1.000
+  Iteration 69: 0.971
+  Iteration 70: 1.000
+
+  Overall avg : 0.979
+  Std dev     : 0.039
+  Overall Avg HARQ rounds : 1.246
+  Std HARQ rounds         : 0.247
+  Overall Avg RLC rounds  : 1.020
+  Std RLC rounds          : 0.162
+  Overall Avg HARQ Infeasibility Rate : 0.003
+  Std HARQ Infeasibility Rate         : 0.022
+
+  Total Tasks Served Per Path (all iterations):
+    Path 0: 6160
+    Path 1: 3500
+    Path 2: 6300
+    Path 3: 3640
