@@ -57,8 +57,8 @@ N_RB = 150
 
 sub6_tx_time = 0.125
 mm_tx_time   = 0.0625
-harq_time    = 0.25
-rlc_time     = 1.0
+harq_time    = 1.0
+rlc_time     = 3.0
 
 du_max_compute = _args.du_max #2.0 #3.5 #5.0 #7.0
 ru_max_compute = _args.ru_max #0.5 #1.0 #2.0 #3.5
@@ -67,9 +67,10 @@ N_RU_PER_DU = 3
 FAIL_THRESHOLD = 3
 
 MM_CSI_NOISE_VAR   = 0.01
-SUB6_CSI_NOISE_VAR = 0.001  
+SUB6_CSI_NOISE_VAR = 0.001
 
-HARQ_RTT_BUDGET = 2.0
+HARQ_RTT_BUDGET = 0.5
+
 # ======================================================
 # Compute Cost Model
 # ======================================================
@@ -135,6 +136,9 @@ def load_sub6_dataset(folder):
 
 sub6_channels  = load_sub6_dataset("data_dec12_sub6/data_dec12_sub6/input_files/processed_files")
 mmwave_channels = load_cfr_dataset("2026-01-04_12_15_15")
+
+#sub6_channels  = load_sub6_dataset("/workspace/envs/simple-wireless-coms/data_dec12_sub6/data_dec12_sub6/input_files/processed_files")
+#mmwave_channels = load_cfr_dataset("/workspace/envs/simple-wireless-coms/2026-01-04_12_15_15")
 
 def freq_selective_channel(x, H):
     n_sc  = len(H)
@@ -245,7 +249,7 @@ def du_high_phy(bits_ref, H_mm_fixed, H_sub6_fixed, harq, rlc, task_ber_max, du_
             # check RTT first, regardless of BER outcome
             if harq:
                 du_delay_now = max(0.0, (du_compute_shared[0] - du_max_compute) / du_max_compute)
-                fronthaul_rtt = 2 * mm_tx_time + harq_time + du_delay_now
+                fronthaul_rtt = 2 * mm_tx_time + du_delay_now
                 if fronthaul_rtt > HARQ_RTT_BUDGET:
                     harq_rtt_violations += 1
 
@@ -653,4 +657,3 @@ print(f"  Std HARQ Infeasibility Rate         : {np.std(all_iteration_harq_infea
 print(f"\n  Total Tasks Served Per Path (all iterations):")
 for p in range(4):
     print(f"    Path {p}: {all_path_task_counts[p]}")
-
